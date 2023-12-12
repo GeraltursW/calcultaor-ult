@@ -1,14 +1,14 @@
 <template>
 	<div>
 		<div class="grid grid-cols-3">
-			<a href="https://github.com/dishait/tov-template" target="_blank">
-				<img :src="safeResolve('/logo.png')" class="logo" alt="Vite logo" />
+			<a href="https://www.huya.com/wuhushenkp" target="_blank">
+				<img :src="safeResolve('/wuhushen.jpg')" class="logo" />
 			</a>
-			<a href="https://vitejs.dev" target="_blank">
-				<img :src="safeResolve('/vite.svg')" class="logo" alt="Vite logo" />
+			<a href="https://www.huya.com/941103" target="_blank">
+				<img :src="safeResolve('/gushouyu.jpg')" class="logo" />
 			</a>
-			<a href="https://vuejs.org/" target="_blank">
-				<img :src="safeResolve('/vue.svg')" class="logo vue" alt="Vue logo" />
+			<a href="https://www.huya.com/924898" target="_blank">
+				<img :src="safeResolve('/caiqi.jpg')" class="logo vue" />
 			</a>
 		</div>
 		<HelloWorld msg="Tov + Vite + Vue" />
@@ -35,6 +35,6 @@ p {
 	filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.vue:hover {
-	filter: drop-shadow(0 0 2em #42b883aa);
+	filter: drop-shadow(0 0 2em #df51bbaa);
 }
 </style>
